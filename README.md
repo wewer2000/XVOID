@@ -1,8 +1,7 @@
 # XVOID
 
-**XVOID** is a terminal-based game written in Python.  
-No installation needed — just run it in your command line!
-
+**XVOID** is a game i made in python
+because i was bored and wanted to test
 ---
 
  How to Play
