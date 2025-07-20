@@ -9,7 +9,7 @@ print(r"""
                                                             ██ ║  ██╗   ╚██████╔╝╚██████╔╝██║██████╔╝
                                                              ╚═╝  ╚═╝    ╚═════╝  ╚═════╝ ╚═╝╚═════╝
                                                                          ░░ X   V O I D ░░           
-                                                                     [ TERMINAL EDITION v1.0 ]
+                                                                     [ TERMINAL EDITION v1.1 ]
 """)
 
 input("""
@@ -106,7 +106,7 @@ load()
 
 while True :
     while z < 16:
-        e = input(" " * 65 + 'move using a , d and s to shoot')
+        e = input(" " * 54 + 'move using a , d and s to shoot and enter to confirm ')
         if e == 'a':
             pos = array1.index('^')
             array1[pos] = '.'
@@ -154,7 +154,8 @@ while True :
                 array6[pos] = '.'
             load()
         z = 1
-        z = array6.count('.')
+        if array6.count('.') == 16 and array5.count('.') == 16 and array4.count('.') == 16 :
+            z = array6.count('.')
     else:
         while q < 4 :
             info = ' '
